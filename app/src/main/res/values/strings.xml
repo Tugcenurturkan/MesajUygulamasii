@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CustomListView</string>
+    <string name="baslik">BAŞLIK</string>
+    <string name="tv_isim">TUĞÇE NUR TÜRKAN</string>
+    <string name="tv_numara">201813709035</string>
+    <string name="btn_gonder">Gönder</string>
+    <string name="btnMesajaGec">Mesaj Gönder</string>
+    <string name="deneme">Deneme</string>
+    <string name="rb_is">İş</string>
+    <string name="rb_arkadas">Arkadaş</string>
+    <string name="rb_akraba">Akraba</string>
+</resources>

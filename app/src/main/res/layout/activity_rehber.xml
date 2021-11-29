@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RehberActivity">
+
+    <ListView
+        android:id="@+id/rehber"
+        android:layout_width="match_parent"
+        android:layout_height="520dp" />
+
+    <Button
+        android:id="@+id/btn_mesajaGec"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/btnMesajaGec" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/rb_akraba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_akraba" />
+
+        <RadioButton
+            android:id="@+id/rb_arkadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_arkadas" />
+
+        <RadioButton
+            android:id="@+id/rb_is"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_is" />
+    </RadioGroup>
+
+</RelativeLayout>
